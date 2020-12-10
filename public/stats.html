@@ -10,13 +10,21 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" />
     <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="stylesheet" href="/assets/styles/footer.css" />
     <title>Fitness Chart</title>
   </head>
-  <nav>
-    <a href="/">Fitness Tracker</a>
-  </nav>
+  
   <body>
+    <nav class="small-nav">
+      <h3 id="smallh3">My Workout Tracker</h3>
+    </nav>
+    <nav>
+      <a href="/"><img src='/assets/images/tracker.png' alt="tracker" width="30px"/>Fitness Tracker</a>    
+    </nav>
     <div class="container mt">
       <h1 class="text-center">Workout Dashboard</h1>
       <div class="row mt">
@@ -36,6 +44,28 @@
         </div>
       </div>
     </div>
+    <footer class="new_footer_area bg_color">
+      <div class="new_footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">                        
+                      </div>
+                  </div>                
+              </div>
+          </div>
+          <div class="footer_bg">
+              <div class="footer_bg_one"></div>
+              <div class="footer_bg_two"></div>
+          </div>
+      </div>
+      <div class="footer_bottom">
+          <div class="container">
+                      <p style="text-align: center;">Developed By : <a href="https://github.com/bhagatabhijeet">Abhijeet Bhagat</a></p>
+                      <p style="text-align: center;"><a href="https://github.com/bhagatabhijeet/myworkouts"><i class="fab fa-github"></i></a></p>
+          </div>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
     <script src="/assets/scripts/api.js"></script>
     <script src="/assets/scripts/stats.js"></script>

@@ -17,7 +17,7 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #5428d5;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -35,6 +35,19 @@ a:visited {
 
 nav a:hover{
   opacity: 0.7;
+}
+
+.small-nav{
+  background-color: #5428d5;
+  color: #ffffff;
+  height: 15px;
+  padding: 5px;
+  line-height: 1;
+  font-size: 1.2rem !important;
+  margin:0;
+}
+.small-nav h3,#smallh3{  
+  text-align: center;
 }
 
 header {
@@ -100,7 +113,7 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  background-color: #fbfbfd;
   padding-bottom: 100px;
 }
 
