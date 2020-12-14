@@ -18,7 +18,8 @@
 myworkouts is a fitness tracker application build using express, MongoDB and Chartjs 
   
 ## Demo
-To install dependencies, run the following command: No Installation Required
+![Home](https://github.com/bhagatabhijeet/myworkouts/raw/main/public/assets/images/trackerHome.png)
+![Dashboard](https://github.com/bhagatabhijeet/myworkouts/raw/main/public/assets/images/trackerDash.png)
 
 ## Usage
 Go to https://myworkoutsapp.herokuapp.com/
